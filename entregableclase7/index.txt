@@ -1,0 +1,73 @@
+// import express from "express"
+// import ProductManager from './src/ProductManager.js'
+
+
+// const manager = new ProductManager(); // Inicialización de ProductManager
+// const getProducts = manager.getProducts()
+
+//   manager.addProduct("Title1", "Description1", 1, "thumbnail1.jpg", 111, 10)
+//   manager.addProduct("Title2", "Description2", 2, "thumbnail2.jpg", 222, 20)
+
+//   console.log(manager.addProduct("Title3", "Description3", 3, "thumbnail3.jpg", 333, 30))
+//   // manager.addProduct("Title4", "Description4", 4, "thumbnail3.jpg", 333, 30)
+//   // manager.addProduct("Title5", "Description5", 5, "thumbnail3.jpg", 333, 30)
+//   // manager.addProduct("Title6", "Description6", 6, "thumbnail3.jpg", 333, 30)
+//   // manager.addProduct("Title7", "Description7", 7, "thumbnail3.jpg", 333, 30)
+//   // manager.addProduct("Title8", "Description8", 8, "thumbnail3.jpg", 333, 30)
+//   // manager.addProduct("Title9", "Description9", 9, "thumbnail3.jpg", 333, 30)
+
+// console.log(getProducts)
+
+
+
+// // const app = express();
+// // const PORT = 8080;
+
+// // app.use(express.json())
+// // app.use(express.urlencoded({ extended: true}))
+
+// // app.get('/', (req, res) => {
+// //   res.send('ruta principal')
+// //   console.log( "asd")
+// // })
+
+
+
+// app.get('/products', async (req, res) => {
+
+//   // try {
+//   //   let limit = parseInt(req.query.limit)
+//   //   let allProducts = await getProducts
+//   //   res.send(allProducts);
+//   //   // console.log(limit)
+//   // } catch (error) {
+//   //   res.status(500).send("Error al obtener los productos");
+//   // }
+// });
+
+
+
+// // Simulamos una base de datos
+
+// let users = []
+
+
+// // queremos dar de alta info
+
+// app.post('/api/users', (req, res) => {
+//   let user = req.body
+//   console.log(user)
+
+//   if(!user.first_name || !user.last_name) {
+//     return res.status(400).send({status: "error", msg: "Valores incompletos, revisar datos de entrada!!"})
+//   }
+
+//   users.push(user)
+
+//   res.send({status: "Success", msg: "Usuario creado"})
+// })
+
+// // puerto de escucha
+// app.listen(PORT, () => {
+//   console.log(`server port on: ${PORT}`)
+// })
