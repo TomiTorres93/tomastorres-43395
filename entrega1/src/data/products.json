@@ -1,0 +1,20 @@
+[
+  {
+    "id": "364b48de-6f24-46a4-a603-bcd4168aa103",
+    "title": "PAÑALES DESCARTABLES ECOGEL x100 U. (EXTRA GRANDE)",
+    "description": "Pañal descartable para adulto marca ECOGEL para incontinencia.",
+    "code": "e50xg",
+    "price": 9350,
+    "stock": 12,
+    "category": "pañal"
+  },
+  {
+    "id": "3b59f14a-5720-42e0-8269-c7bac431fcd6",
+    "title": "PAÑALES DESCARTABLES PLAIGHT x100 U. (GRANDE)",
+    "description": "Pañal descartable para adulto marca PLAIGHT para incontinencia.",
+    "code": "pl100g",
+    "price": 9500,
+    "stock": 10,
+    "category": "pañal"
+  }
+]

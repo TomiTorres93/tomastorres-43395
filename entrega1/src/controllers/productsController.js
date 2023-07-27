@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { v4 as uuidv4 } from 'uuid';
 
-const productsFilePath = './src/data/products.json';
+const productsFilePath = './data/products.json';
 
 const readFilesProduct = async () => {
   try {

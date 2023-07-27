@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { v4 as uuidv4 } from 'uuid';
 
-const cartsFilePath = './src/data/carts.json';
+const cartsFilePath = './data/cart.json';
 
 const readFilesCart = async () => {
   try {
